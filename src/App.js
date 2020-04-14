@@ -43,6 +43,7 @@ const App = () => {
           {equipping.map(card => (
             <article className="card-list__item">
               <a
+                target="_blank"
                 href={`https://citybiblechurch.churchcenter.com/groups/equipping-classes/${_.kebabCase(
                   card.attributes.name
                 )}`}
