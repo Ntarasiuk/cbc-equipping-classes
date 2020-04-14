@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/cbc-equipping-classes/static/css/main.ce9f0923.chunk.css",
-    "main.js": "/cbc-equipping-classes/static/js/main.9d616028.chunk.js",
-    "main.js.map": "/cbc-equipping-classes/static/js/main.9d616028.chunk.js.map",
-    "runtime-main.js": "/cbc-equipping-classes/static/js/runtime-main.e9eb58bf.js",
-    "runtime-main.js.map": "/cbc-equipping-classes/static/js/runtime-main.e9eb58bf.js.map",
-    "static/js/2.46dec348.chunk.js": "/cbc-equipping-classes/static/js/2.46dec348.chunk.js",
-    "static/js/2.46dec348.chunk.js.map": "/cbc-equipping-classes/static/js/2.46dec348.chunk.js.map",
-    "index.html": "/cbc-equipping-classes/index.html",
-    "precache-manifest.83dc1435e3626be3d7443c717cdbcb41.js": "/cbc-equipping-classes/precache-manifest.83dc1435e3626be3d7443c717cdbcb41.js",
-    "service-worker.js": "/cbc-equipping-classes/service-worker.js",
-    "static/css/main.ce9f0923.chunk.css.map": "/cbc-equipping-classes/static/css/main.ce9f0923.chunk.css.map",
-    "static/js/2.46dec348.chunk.js.LICENSE.txt": "/cbc-equipping-classes/static/js/2.46dec348.chunk.js.LICENSE.txt"
+    "main.css": "/cbc-equipping-classes/build/static/css/main.ce9f0923.chunk.css",
+    "main.js": "/cbc-equipping-classes/build/static/js/main.e43a327c.chunk.js",
+    "main.js.map": "/cbc-equipping-classes/build/static/js/main.e43a327c.chunk.js.map",
+    "runtime-main.js": "/cbc-equipping-classes/build/static/js/runtime-main.d505b795.js",
+    "runtime-main.js.map": "/cbc-equipping-classes/build/static/js/runtime-main.d505b795.js.map",
+    "static/js/2.46dec348.chunk.js": "/cbc-equipping-classes/build/static/js/2.46dec348.chunk.js",
+    "static/js/2.46dec348.chunk.js.map": "/cbc-equipping-classes/build/static/js/2.46dec348.chunk.js.map",
+    "index.html": "/cbc-equipping-classes/build/index.html",
+    "precache-manifest.5eabecbf7840fe3e89f11f817db1ecfb.js": "/cbc-equipping-classes/build/precache-manifest.5eabecbf7840fe3e89f11f817db1ecfb.js",
+    "service-worker.js": "/cbc-equipping-classes/build/service-worker.js",
+    "static/css/main.ce9f0923.chunk.css.map": "/cbc-equipping-classes/build/static/css/main.ce9f0923.chunk.css.map",
+    "static/js/2.46dec348.chunk.js.LICENSE.txt": "/cbc-equipping-classes/build/static/js/2.46dec348.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9eb58bf.js",
+    "static/js/runtime-main.d505b795.js",
     "static/js/2.46dec348.chunk.js",
     "static/css/main.ce9f0923.chunk.css",
-    "static/js/main.9d616028.chunk.js"
+    "static/js/main.e43a327c.chunk.js"
   ]
 }
