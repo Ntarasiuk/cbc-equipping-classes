@@ -1,6 +1,6 @@
 import createBrowserHistory from 'history/createBrowserHistory'
 import React, { useState } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import Community from './Community'
 import Equipping from './Equipping'
 
@@ -32,7 +32,7 @@ const App = () => {
   // });
 
   return (
-    <BrowserRouter basename="/cbc-equipping-classes/build">
+    <HashRouter basename="/">
       <Switch>
         <Route path="/cbc-equipping-classes/build/equipping">
           <Equipping />
@@ -41,7 +41,7 @@ const App = () => {
           <Community />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 export default App
