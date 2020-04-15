@@ -34,10 +34,10 @@ const App = () => {
   return (
     <Router history={history}>
       <Switch>
-        <Route path="/equipping">
+        <Route path="/cbc-equipping-classes/build/equipping">
           <Equipping />
         </Route>
-        <Route path="/community">
+        <Route path="/cbc-equipping-classes/build/community">
           <Community />
         </Route>
       </Switch>
