@@ -34,10 +34,10 @@ const App = () => {
   return (
     <HashRouter basename="/">
       <Switch>
-        <Route path="/cbc-equipping-classes/build/equipping">
+        <Route path="/equipping">
           <Equipping />
         </Route>
-        <Route path="/cbc-equipping-classes/build/community">
+        <Route path="/community">
           <Community />
         </Route>
       </Switch>
