@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cbc-equipping-classes/build/static/css/main.ce9f0923.chunk.css",
-    "main.js": "/cbc-equipping-classes/build/static/js/main.f790338d.chunk.js",
-    "main.js.map": "/cbc-equipping-classes/build/static/js/main.f790338d.chunk.js.map",
+    "main.js": "/cbc-equipping-classes/build/static/js/main.0b113067.chunk.js",
+    "main.js.map": "/cbc-equipping-classes/build/static/js/main.0b113067.chunk.js.map",
     "runtime-main.js": "/cbc-equipping-classes/build/static/js/runtime-main.d505b795.js",
     "runtime-main.js.map": "/cbc-equipping-classes/build/static/js/runtime-main.d505b795.js.map",
     "static/js/2.23d87205.chunk.js": "/cbc-equipping-classes/build/static/js/2.23d87205.chunk.js",
     "static/js/2.23d87205.chunk.js.map": "/cbc-equipping-classes/build/static/js/2.23d87205.chunk.js.map",
     "index.html": "/cbc-equipping-classes/build/index.html",
-    "precache-manifest.c478b8d3c432c3199c8bf91a86754ed7.js": "/cbc-equipping-classes/build/precache-manifest.c478b8d3c432c3199c8bf91a86754ed7.js",
+    "precache-manifest.6830b94156d7b784a4fe93b8fa2e1961.js": "/cbc-equipping-classes/build/precache-manifest.6830b94156d7b784a4fe93b8fa2e1961.js",
     "service-worker.js": "/cbc-equipping-classes/build/service-worker.js",
     "static/css/main.ce9f0923.chunk.css.map": "/cbc-equipping-classes/build/static/css/main.ce9f0923.chunk.css.map",
     "static/js/2.23d87205.chunk.js.LICENSE.txt": "/cbc-equipping-classes/build/static/js/2.23d87205.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d505b795.js",
     "static/js/2.23d87205.chunk.js",
     "static/css/main.ce9f0923.chunk.css",
-    "static/js/main.f790338d.chunk.js"
+    "static/js/main.0b113067.chunk.js"
   ]
 }
