@@ -33,8 +33,15 @@ function Equipping() {
                   <h1 className="pr-1 fs-3 mb-0 lh-1.25 card-list-item__title">
                     {card.attributes.name}
                   </h1>
-                  <span className="badge ml-1 closed-badge" data-css-z6vvyp="">
-                    closed
+                  <span
+                    className={
+                      card.attributes.enrollment_open
+                        ? 'badge ml-1 open-badge'
+                        : 'badge ml-1 closed-badge'
+                    }
+                    data-css-z6vvyp=""
+                  >
+                    {card.attributes.enrollment_open ? 'open' : 'closed'}
                   </span>
                 </div>
                 <div className="c-gray_800 fs-13">

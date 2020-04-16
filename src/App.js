@@ -3,6 +3,9 @@ import React, { useState } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import Community from './Community'
 import Equipping from './Equipping'
+import Events from './Events'
+
+const fs = require('fs')
 
 const App = () => {
   const [hasError, setErrors] = useState(false)
@@ -22,14 +25,27 @@ const App = () => {
   //   res
   //     .json()
   //     .then(res => {
-  //       setClasses(res)
+  //       fs.writeFile(
+  //         'data.json',
+  //         JSON.stringify(res, null, 2),
+  //         'utf8',
+  //         function(err) {
+  //           if (err) {
+  //             console.log(
+  //               'Some error occured - file either not saved or corrupted file saved.'
+  //             )
+  //           } else {
+  //             console.log("It's saved!")
+  //           }
+  //         }
+  //       )
   //     })
   //     .catch(err => setErrors(err))
   // }
 
   // useEffect(() => {
-  //   fetchData();
-  // });
+  //   fetchData()
+  // }, [])
 
   return (
     <HashRouter basename="/">
@@ -39,6 +55,9 @@ const App = () => {
         </Route>
         <Route path="/community">
           <Community />
+        </Route>
+        <Route path="/events">
+          <Events />
         </Route>
       </Switch>
     </HashRouter>
