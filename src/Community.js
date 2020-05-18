@@ -1,13 +1,25 @@
 import _ from 'lodash'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './App.css'
 import data from './data.json'
+import { fetchData } from './util'
 
 function Community() {
   const [classes, setClasses] = useState(data)
 
-  const community = classes.data.filter(
-    e => e.relationships && e.relationships.group_type.data.id === '90553'
+  const getClasses = async () => {
+    const classData = await fetchData()
+    if (classData) setClasses(classData)
+  }
+  useEffect(() => {
+    getClasses()
+  }, [])
+
+  const community = _.sortBy(
+    classes.data.filter(
+      e => e.relationships && e.relationships.group_type.data.id === '90553'
+    ),
+    'attributes.name'
   )
   return (
     <div

@@ -1,19 +1,46 @@
 import _ from 'lodash'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './App.css'
 import data from './data.json'
+import { fetchData } from './util'
 
 function Equipping() {
   const [classes, setClasses] = useState(data)
+  const [checked, setChecked] = useState(false)
+  const getClasses = async () => {
+    const classData = await fetchData()
+    if (classData) setClasses(classData)
+  }
+  useEffect(() => {
+    getClasses()
+  }, [])
 
-  const equipping = classes.data.filter(
-    e => e.relationships && e.relationships.group_type.data.id === '90554'
-  )
+  const equipping = classes.data
+    .filter(
+      e => e.relationships && e.relationships.group_type.data.id === '90554'
+    )
+    .filter(
+      e =>
+        e.attributes.enrollment_open ||
+        e.attributes.enrollment_open === !checked
+    )
   return (
     <div
       className="w-100% table-loading-overlay"
       style={{ position: 'relative' }}
     >
+      <div style={{ margin: '30px 0' }}>
+        <input
+          type="checkbox"
+          id="enrollment-status"
+          className="checkbox"
+          checked={checked}
+          onChange={() => setChecked(!checked)}
+        />
+        <label htmlFor="enrollment-status" className="checkbox-label">
+          Include closed &amp; full groups
+        </label>
+      </div>
       <div>
         <section className="card-list">
           {equipping.map(card => (
