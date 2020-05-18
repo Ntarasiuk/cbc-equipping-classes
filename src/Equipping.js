@@ -29,7 +29,7 @@ function Equipping() {
       className="w-100% table-loading-overlay"
       style={{ position: 'relative' }}
     >
-      <div style={{ margin: '30px 0' }}>
+      <div style={{ padding: '30px 0' }}>
         <input
           type="checkbox"
           id="enrollment-status"
