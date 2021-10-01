@@ -31,15 +31,18 @@ function Community() {
           {community.map(card => (
             <article className="card-list__item">
               <a
-                target="_blank"
-                rel="noopener noreferrer"
+                // target="_blank"
+                // rel="noopener noreferrer"
                 href={`https://citybiblechurch.churchcenter.com/groups/community-groups/${_.kebabCase(
                   card.attributes.name
                 )}`}
                 className="d-b"
               >
                 <div className="card-list-item__image">
-                  <img src={card.attributes.header_image.medium} />
+                  <img
+                    src={card.attributes.header_image.medium}
+                    alt="community group"
+                  />
                 </div>
                 <div className="d-f jc-sb ai-fs">
                   <h1 className="pr-1 fs-3 mb-0 lh-1.25 card-list-item__title">

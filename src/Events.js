@@ -4,7 +4,6 @@ import data from './data.json'
 
 function Equipping() {
   const [classes, setClasses] = useState(data)
-  const [errors, setErrors] = useState(data)
 
   async function fetchData() {
     const res = await fetch(
@@ -22,7 +21,7 @@ function Equipping() {
       .then(res => {
         setClasses(res)
       })
-      .catch(err => setErrors(err))
+      .catch(err => console.log(err))
   }
 
   useEffect(() => {
@@ -46,7 +45,7 @@ function Equipping() {
                 className="d-b"
               >
                 <div className="card-list-item__image">
-                  <img src={card.attributes.logo_url} />
+                  <img src={card.attributes.logo_url} alt="event cover" />
                 </div>
                 <div className="d-f jc-sb ai-fs">
                   <h1 className="pr-1 fs-3 mb-0 lh-1.25 card-list-item__title">
