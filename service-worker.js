@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cbc-equipping-classes/precache-manifest.255cfdcb5939407ec4fa6717b197a322.js"
+  "/cbc-equipping-classes/precache-manifest.28cfaa3cc5a554115577b8164fe937d5.js"
 );
 
 self.addEventListener('message', (event) => {

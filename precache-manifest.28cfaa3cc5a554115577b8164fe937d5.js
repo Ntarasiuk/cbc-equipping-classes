@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c155aea1def2e77fc36db238193eaeab",
+    "revision": "96c91dd8752edd209868b982b769ec4f",
     "url": "/cbc-equipping-classes/index.html"
   },
   {
-    "revision": "a0d598bdf8811790ac78",
+    "revision": "5e92a8f4ce5b05ec9028",
     "url": "/cbc-equipping-classes/static/css/main.ce9f0923.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cbc-equipping-classes/static/js/2.8a47f6b4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0d598bdf8811790ac78",
-    "url": "/cbc-equipping-classes/static/js/main.b17242b9.chunk.js"
+    "revision": "5e92a8f4ce5b05ec9028",
+    "url": "/cbc-equipping-classes/static/js/main.e8a21cf8.chunk.js"
   },
   {
     "revision": "ee15587937e159c69e92",
